@@ -27,7 +27,7 @@ const About = () => {
           animate={shouldReduceMotion ? {} : { opacity: 1 }}
           transition={shouldReduceMotion ? {} : { delay: 0.5, duration: 1 }}
         >
-          I'm Salman Tabrez, a Cloud Security & Identity Architect with 7+ years of experience securing systems across healthcare, fintech, and enterprise IT environments. I design security programs that work end-to-end — from early architecture decisions to continuous visibility in production — without slowing down engineering teams.
+          I&apos;m Salman Tabrez, a Cloud Security &amp; Identity Architect with 7+ years of experience securing systems across healthcare, fintech, and enterprise IT environments. I design security programs that work end-to-end — from early architecture decisions to continuous visibility in production — without slowing down engineering teams.
           <br /><br />
           My work begins with threat modeling and secure design, helping teams understand risk before they build. From there, I embed security directly into delivery pipelines using shift-left practices such as SAST, DAST, and dependency scanning, so vulnerabilities are caught early and automatically.
           <br /><br />
@@ -35,7 +35,7 @@ const About = () => {
           <br /><br />
           In production, I ensure security does not stop at deployment. I help teams build real-time visibility through centralized logging and SIEM platforms such as Splunk and Datadog, so abnormal behavior can be detected and responded to quickly.
           <br /><br />
-          Across my career, I've worked in regulated and high-risk environments where security must be practical, auditable, and scalable. My approach is principle-driven, business-aware, and focused on building security that lasts — not security that only passes a one-time assessment.
+          Across my career, I&apos;ve worked in regulated and high-risk environments where security must be practical, auditable, and scalable. My approach is principle-driven, business-aware, and focused on building security that lasts — not security that only passes a one-time assessment.
         </motion.p>
       </Container>
     </section>

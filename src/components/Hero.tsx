@@ -1,5 +1,6 @@
 // src/components/HeroSection.jsx
 import React from "react";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import Container from "./Container";
 
@@ -20,9 +21,11 @@ const HeroSection = () => {
                 animate={shouldReduceMotion ? {} : { opacity: 1, x: 0 }}
                 transition={shouldReduceMotion ? {} : { duration: 0.8 }}
               >
-                <img
+                <Image
                   src="/images/salman-transparent.png"
                   alt="Salman Tabrez"
+                  width={520}
+                  height={520}
                   className="w-[320px] sm:w-[380px] md:w-[460px] lg:w-[520px] h-auto object-contain"
                 />
               </motion.div>

@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://salmantabrez.com"),
   title: "Salman Tabrez - Cloud Security Architect",
   description: "Professional portfolio of Salman Tabrez, Cloud Security Architect specializing in AWS, GCP, Kubernetes, and DevSecOps.",
   keywords: "Cloud Security, AWS, GCP, Azure, Kubernetes, DevSecOps, CI/CD, Salman Tabrez",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Salman Tabrez Portfolio",
     images: [
       {
-        url: "/profile.jpg", // Add a profile image later
+        url: "/profile.jpg",
         width: 1200,
         height: 630,
         alt: "Salman Tabrez",
@@ -50,9 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-purple-600 text-white px-4 py-2 rounded z-50"
